@@ -2,10 +2,10 @@
         const textInput = document.getElementById('text').value;
         const delayInput = document.getElementById('delay').value;
 
-        if (!textInput || !delayInput) {
-            alert('Please enter text and delay');
-            return;
-        }
+        // if (!textInput || !delayInput) {
+        //     alert('Please enter text and delay');
+        //     return;
+        // }
 
         const delayInSeconds = parseInt(delayInput, 10);
 
