@@ -14,7 +14,7 @@
             await new Promise(resolve => setTimeout(resolve, delayInSeconds * 1000));
             
             // Display the text after the delay
-            document.getElementById('output').innerText = textInput;
+            document.getElementById('output').textContent = textInput;
         } catch (error) {
             console.error('Error:', error);
         }
